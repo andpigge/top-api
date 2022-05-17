@@ -23,7 +23,7 @@ import { ProductsModule } from './products/products.module';
 		ProductsModule,
 		AuthModule,
 		// TopPageModule,
-		// ProductModule,
+		ProductModule,
 		// ReviewModule
 	],
 	controllers: [AppController],
