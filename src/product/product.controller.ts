@@ -12,6 +12,7 @@ import { FindProductDto } from './dto/find-product.dto';
 import { ProductModel } from './product.model';
 
 /* CRUD */
+/* Patch - частичное обновление. Put - обновление */
 @Controller('product')
 export class ProductController {
 
