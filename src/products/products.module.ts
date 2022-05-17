@@ -6,17 +6,17 @@ import { ProductsController } from './products.controller';
 import { ProductsService } from './products.service';
 
 @Module({
-	controllers: [ProductsController],
 	imports: [
 		TypegooseModule.forFeature([
 			{
 				typegooseClass: ProductsModel,
 				schemaOptions: {
-					collection: 'products'
+					collection: 'Products'
 				}
 			}
 		])
 	],
+	controllers: [ProductsController],
 	providers: [ProductsService],
 })
 export class ProductsModule { }

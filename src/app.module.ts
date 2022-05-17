@@ -14,14 +14,14 @@ import { ProductsModule } from './products/products.module';
 
 @Module({
 	imports: [
-		ProductsModule,
 		ConfigModule.forRoot(),
 		TypegooseModule.forRootAsync({
 			imports: [ConfigModule],
 			inject: [ConfigService],
 			useFactory: getMongoConfig
 		}),
-		// AuthModule,
+		ProductsModule,
+		AuthModule,
 		// TopPageModule,
 		// ProductModule,
 		// ReviewModule
