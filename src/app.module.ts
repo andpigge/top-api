@@ -24,7 +24,7 @@ import { ProductsModule } from './products/products.module';
 		AuthModule,
 		// TopPageModule,
 		ProductModule,
-		// ReviewModule
+		ReviewModule
 	],
 	controllers: [AppController],
 	providers: [AppService],
