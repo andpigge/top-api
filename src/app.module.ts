@@ -22,7 +22,7 @@ import { ProductsModule } from './products/products.module';
 		}),
 		ProductsModule,
 		AuthModule,
-		// TopPageModule,
+		TopPageModule,
 		ProductModule,
 		ReviewModule
 	],
